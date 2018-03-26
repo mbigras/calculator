@@ -6,7 +6,7 @@
 
 ```
 docker build --tag calculator .
-``
+```
 
 ## Questions
 
