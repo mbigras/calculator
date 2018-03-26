@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+image="$(basename "$(pwd)")"
+docker run \
+	--interactive \
+	--tty \
+	--volume "$(pwd)"/exe:/app/exe \
+	--volume "$(pwd)"/features:/app/features \
+	--volume "$(pwd)"/lib:/app/lib \
+	$image

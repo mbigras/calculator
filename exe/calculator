@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+n1, n2 = ARGV.first.split('+').map(&:to_i)
+print n1 + n2
